@@ -3,8 +3,8 @@ const express = require('express')
 const hbs = require('hbs')
 const request = require('request')
 
-const forecast = require('../templates/utils/forecast')
-const geocode = require('../templates/utils/geocode')
+const forecast = require('../source/utils/forecast')
+const geocode = require('../source/utils/geocode')
 
 const app = express()
 const port = process.env.PORT || 3000
